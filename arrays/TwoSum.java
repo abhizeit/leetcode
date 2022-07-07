@@ -5,6 +5,9 @@ import java.util.Arrays;
 public class TwoSum {
 
     public static int[] twosum(int[] arr, int target) {
+             
+        //USING ITERATIVE APPROACH
+//         int[] result = {-1, -1};
 //        int[] result = new int[2];
 //        for(int i=0;i<arr.length-1;i++){
 //            for(int j=i+1;j<arr.length;j++){
@@ -14,6 +17,7 @@ public class TwoSum {
 //                    return result;
 //                }
 //            }
+        
         //USING TWO POINTER APPROACH
         int[] result = {-1, -1};
         int i = 0;
