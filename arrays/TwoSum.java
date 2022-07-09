@@ -22,7 +22,7 @@ public class TwoSum {
         int[] result = {-1, -1};
         int i = 0;
         int j = arr.length - 1;
-        while (i != j) {
+        while (i < j) {
             if (arr[i] + arr[j] == target) {
                 result[0] = i;
                 result[1] = j;
